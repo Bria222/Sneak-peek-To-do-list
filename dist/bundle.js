@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\r\n\n\n//# sourceURL=webpack://Sneak-peek-To-do-list/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\r\n\r\n\r\nconst tasks = [\r\n    { description: 'cycling', completed: true, index: 1 },\r\n    { description: 'solving algorithms', completed: false, index: 2 },\r\n    { description: 'watch basket ball', completed: false, index: 3 },\r\n    { description: 'Go for a hike', completed: true, index: 4 },\r\n  ];\r\n  \r\n  const toDos = document.getElementById('todo-list');\r\n  \r\n  function Showtasks() {\r\n    let chores = '';\r\n    tasks.forEach((element) => {\r\n      chores += `\r\n              <div class=\"list\">\r\n                  <input type=\"checkbox\">\r\n                  <p>${element.description}</p>\r\n                  <a><i class=\"fa fa-ellipsis-v fa-2x\" aria-hidden=\"true\"></i>\r\n                  </a>\r\n              </div>`;\r\n    });\r\n    toDos.innerHTML = chores;\r\n  }\r\n  Showtasks();\r\n  window.onload();\n\n//# sourceURL=webpack://Sneak-peek-To-do-list/./src/index.js?");
 
 /***/ })
 

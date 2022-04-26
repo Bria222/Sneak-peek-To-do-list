@@ -117,3 +117,17 @@ div ul li:last-child {
   caret-color: auto;
   z-index: 100;
 }
+
+.list {
+  display: flex;
+  align-items: baseline;
+  border: 1px solid rgba(220, 220, 220, 1);
+  border-radius: 2px;
+  width: 95%;
+  padding: 1rem 1rem 0 1rem;
+}
+
+a {
+  margin-left: auto;
+  color: gray;
+}
