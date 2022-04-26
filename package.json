@@ -1,0 +1,29 @@
+{
+  "name": "Sneak-peek-To-do-list",
+  "version": "1.0.0",
+  "description": "In this project the goal build a simple HTML list of To Do tasks with html, javascript ES6 syntax, webpack bundler and scss.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --open --mode=development",
+    "build": "webpack --mode development",
+    "start": "webpack serve --open "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bria222/Sneak-peek-To-do-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bria222/Sneak-peek-To-do-list/issues"
+  },
+  "homepage": "https://github.com/Bria222/Sneak-peek-To-do-list#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
