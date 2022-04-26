@@ -19,9 +19,23 @@ In this project the goal build a simple HTML list of To Do tasks with html, java
 - scss
 - linters
 
-To get a local copy up and running follow these simple steps:
+## Getting Started
+To run the above project you need to meet the following requirements:
+## Prerequisites
+- Have [Vscode](https://code.visualstudio.com/) installed 
+- Have [Git](https:npm.com/) installed
 
-1. Go to the [repository page](https://github.com/Bria222/awesome-books-app/).
+## Run
+> To run the above project :
+> Run the following commands on your terminal of choice
+
+- git clone <https://github.com/Bria222/Sneak-peek-To-do-list>
+- cd /dir
+- npm install
+- npm run dev - to spin up local webpack server
+- npm run build - to build webpack
+  
+
 2. Press the "Code" button and copy the link.
 3. Clone it using git command `git clone <https://github.com/Bria222/Sneak-peek-To-do-list>`.
 
@@ -32,8 +46,6 @@ To get a local copy up and running follow these simple steps:
 - Apply JavaScript best practices and language style guides in code.
 - Use JavaScript to manipulate DOM elements.
 - Use JavaScript events.
-
-
 
 
 ## Author
