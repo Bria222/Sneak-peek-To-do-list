@@ -33,9 +33,9 @@ hr {
   margin: 100px auto;
   border-radius: 4px;
   padding: 10px;
-  box-shadow: 2px 6px 5px 0 rgb(153, 153, 102, 0.6);
+  box-shadow: 4px 6px 5px 0 rgb(153, 153, 102, 0.6);
   -webkit-box-shadow: 2px 6px 5px 0 rgb(153, 153, 102, 0.6);
-  -moz-box-shadow: 2px 6px 5px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 3px 7px 4px 0 rgba(0, 0, 0, 0.6);
 }
 
 .todo-list {
@@ -106,7 +106,7 @@ div ul li:last-child {
 
 .strike-thro {
   text-decoration: line-through;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .edit-input {
@@ -127,7 +127,6 @@ div ul li:last-child {
   padding: 1rem 1rem 0 1rem;
 }
 
-a {
-  margin-left: auto;
-  color: gray;
+.pp {
+  color: grey;
 }
