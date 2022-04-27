@@ -4,10 +4,10 @@
   "description": "In this project the goal build a simple HTML list of To Do tasks with html, javascript ES6 syntax, webpack bundler and scss.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack serve --open --mode=development",
-    "build": "webpack --mode development",
-    "start": "webpack serve --open "
+    "build": "webpack",
+    "dev": "webpack serve",
+    "start": "webpack serve --open",
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
