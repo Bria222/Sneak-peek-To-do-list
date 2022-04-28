@@ -26,6 +26,15 @@ hr {
 
 .refresh-icon {
   cursor: pointer;
+  transform: rotate(35deg);
+}
+
+.roTate {
+  transition: transform 0.5s ease-in-out;
+}
+
+.roTate:hover {
+  transform: rotate(360deg);
 }
 
 .container {
