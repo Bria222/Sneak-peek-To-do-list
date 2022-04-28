@@ -30,8 +30,9 @@ To run the above project you need to meet the following requirements:
 > Run the following commands on your terminal of choice
 
 - git clone <https://github.com/Bria222/Sneak-peek-To-do-list>
-- cd /dir
-- npm install
+- cd /directory name
+- `< init -y >` to initialize json file
+- npm install to install all the packages
 - npm run dev - to spin up local webpack server
 - npm run build - to build webpack
   
@@ -42,6 +43,7 @@ To run the above project you need to meet the following requirements:
 ## :blue_book: Learning Objectives
 
 - use local storage
+- use webpack to bundle javascript
 - Use objects to store and access data.
 - Apply JavaScript best practices and language style guides in code.
 - Use JavaScript to manipulate DOM elements.
