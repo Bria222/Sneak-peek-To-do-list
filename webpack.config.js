@@ -23,7 +23,13 @@ module.exports = {
     ],
   },
   devServer: {
-    static: './dist',
-    watchFiles: ['src/**/*.html', 'src/**/*.css', 'src/**/*.js'],
+    static: {
+      directory: path.resolve(__dirname, 'dist'),
+    },
+    port: 9000,
+    open: true,
+    hot: true,
+    compress: true,
+    historyApiFallback: true,
   },
 };
