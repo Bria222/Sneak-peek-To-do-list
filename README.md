@@ -6,7 +6,7 @@ In this project the goal build a simple HTML list of To Do tasks with html, java
 
 ## :red_circle: Live Demo Link
 
-[view website](/)
+[view website](https://bria222.github.io/Sneak-peek-To-do-list/)
 
 
 
