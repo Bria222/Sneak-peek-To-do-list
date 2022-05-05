@@ -1,3 +1,4 @@
+// Task Display
 function displayTask() {
   const todoList = document.querySelector('.todo-list');
   const localData = JSON.parse(localStorage.getItem('tasks'));

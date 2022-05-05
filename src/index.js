@@ -28,8 +28,8 @@ inputTask.addEventListener('keypress', (e) => {
       inputTask.value = '';
       inputTask.focus();
     }
-    displayTask();
     window.location.reload();
+    displayTask();
   }
 });
 // instantiate modules
