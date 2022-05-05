@@ -2,17 +2,13 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
   mode: 'development',
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-  ],
+  entry: {
+    bundle: path.resolve(__dirname, 'src/index.js'),
+  },
   output: {
-    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
+    filename: '[name].js',
   },
   module: {
     rules: [
@@ -32,4 +28,11 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Webpack Todo list',
+      filename: 'index.html',
+      template: 'src/index.html',
+    }),
+  ],
 };
