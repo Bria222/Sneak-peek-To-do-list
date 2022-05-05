@@ -6,6 +6,10 @@ body {
   position: relative;
 }
 
+h1 {
+  font-size: 22px;
+}
+
 hr {
   width: 100%;
   opacity: 0.5;

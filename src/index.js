@@ -1,7 +1,7 @@
-import './style.css';
-import Task from './modules/tasks.js';
-import displayTask from './modules/displayTask.js';
-import { editTask, editText, keyPress } from './modules/editTask.js';
+import './styles.css';
+import Task from './tasks.js';
+import displayTask from './displayTask.js';
+import { editTask, editText, keyPress } from './editTask.js';
 
 const newTask = new Task();
 const inputTask = document.querySelector('.input-task');
@@ -32,7 +32,7 @@ inputTask.addEventListener('keypress', (e) => {
     window.location.reload();
   }
 });
-// instantiate modules
+
 displayTask();
 editTask();
 editText();

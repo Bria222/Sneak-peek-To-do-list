@@ -4,7 +4,7 @@
 import Task from './tasks.js';
 import displayTask from './displayTask.js';
 import updateUi from './updateUi.js';
-// import './modules/jest-localstorage-mock';
+import 'jest-localstorage-mock';
 
 const taskObj = new Task();
 const mLocalStorage = {
