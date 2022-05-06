@@ -28,7 +28,6 @@ describe('Should test for status and content updates', () => {
 
   const checkBoxValue = document.querySelector('.text-input');
   const textValue = document.querySelector('.text-value');
-
   test('Should edit task description', () => {
     taskObj.addNewTask(textValue);
     document.body.innerHTML = '  <div class="todo-list"></div> ';
@@ -45,6 +44,10 @@ describe('Should test for status and content updates', () => {
   test('Should test edit task function', () => {
     const value = 'Text Value';
     editText(value, 1);
+    expect.any(Function);
+  });
+
+  test('should test for clear all', () => {
     expect.any(Function);
   });
 });
