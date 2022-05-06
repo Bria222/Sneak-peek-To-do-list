@@ -31,7 +31,9 @@ To run the above project you need to meet the following requirements:
 
 ## to test the application
 > npm install --save-dev jest
+
 > npm test
+> 
 ## tests output
 ![test](https://user-images.githubusercontent.com/64264883/167110037-ad743e68-17f9-46af-bdb5-fffaf636d2b9.png)
 
