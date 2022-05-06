@@ -47,7 +47,7 @@ describe('Should test for status and content updates', () => {
     expect.any(Function);
   });
 
-  test('should test for clear all', () => {
+  test('should test for clear all function', () => {
     expect.any(Function);
   });
 });
