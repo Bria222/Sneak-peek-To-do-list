@@ -28,6 +28,7 @@ To run the above project you need to meet the following requirements:
 ## Run
 > To run the above project :
 > Run the following commands on your terminal of choice
+> Run npm test
 
 - git clone <https://github.com/Bria222/Sneak-peek-To-do-list>
 - cd /directory name
@@ -50,11 +51,16 @@ To run the above project you need to meet the following requirements:
 - Use JavaScript events.
 
 
-## Author
+## Authors
 
 👤 **brian nyachae**
 
 - GitHub: [@Bria222](https://github.com/Bria222)
+
+👤 **Chidinma Faith**
+
+- GitHub: [@Dinma-Faith](https://github.com/Dinma-Faith)
+
 
 
 
