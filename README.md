@@ -25,10 +25,17 @@ To run the above project you need to meet the following requirements:
 - Have [Vscode](https://code.visualstudio.com/) installed 
 - Have [Git](https:npm.com/) installed
 
-## Run
+## Run 
 > To run the above project :
 > Run the following commands on your terminal of choice
-> Run npm test
+
+## to test the application
+> npm install --save-dev jest
+
+> npm test
+> 
+## tests output
+![test](https://user-images.githubusercontent.com/64264883/167110037-ad743e68-17f9-46af-bdb5-fffaf636d2b9.png)
 
 - git clone <https://github.com/Bria222/Sneak-peek-To-do-list>
 - cd /directory name
